@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+}
+ul li {
+  cursor: pointer;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.backimage {
+  background-image: url("./images/nolan-di-meo-wjRY-sJdl6Q-unsplash\ \(1\).jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position-x: center;
+  min-height: 90vh;
+}
